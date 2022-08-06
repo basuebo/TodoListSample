@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
-    <title>Todo List with Javascript</title>
+    <title>TodoList with Javascript</title>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="src/styles.css" />
   </head>
 
   <body>
-    <main>
-      <h1>Todo List with Javascript</h1>
+    <div class="container">
+      <h2>TodoList with Javascript</h2>
       <div>
-        <input type="text" value="" placeholder="Todoを入力" />
+        <input type="text" value="" placeholder="タスクを入力" />
         <button>追加</button>
       </div>
 
-      <div>
+      <div class="incomplete">
         <ul>
           <li>ああああああああああ</li>
           <button>済</button>
@@ -25,7 +25,7 @@
         </ul>
       </div>
 
-      <div>
+      <div class="complete">
         <p>完了</p>
         <ul>
           <li>ああああああああああ</li>
@@ -36,6 +36,6 @@
           <button>消</button>
         </ul>
       </div>
-    </main>
+    </div>
   </body>
 </html>

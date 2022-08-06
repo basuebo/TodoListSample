@@ -7,14 +7,50 @@
 }
 
 body {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  background:#777;
+}
+
+.container {
+	position: relative;
+	padding: 60px 50px;
+	background: #FFF;
+	border-radius: 10px;
+}
+
+h2 {
+	margin-bottom: 30px;
+	padding-left: 10px;
+	border-left: 7px solid #2E8B57;
 }
 
 input {
-  width: 80%;
-  padding: 5px 5px;
-  border-radius: 6px;
+  width: 300px;
+  border: 1px solid #111;
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
 }
+
+button {
+	padding: 6px 20px;
+	color: white;
+	background-color: #4169E1;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+}
+
+li {
+	width: 200px;
+	border: 1px solid gray;
+}
+
+p {
+	background: lightgray;
+	padding: 3px 0px;
+}
+
