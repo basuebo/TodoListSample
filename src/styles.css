@@ -1,9 +1,13 @@
 @charset "utf-8";
 
+html {
+	font-family: sans-serif;
+	font-size: 16px;
+}
+
 * {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
 }
 
 body {
@@ -19,13 +23,18 @@ body {
 	padding: 60px 50px;
 	background: #FFF;
 	border-radius: 10px;
-	box-shadow: 5px 5px 30px 5px gray;
+	box-shadow: 0px 0px 10px 0px #999;
 }
 
 h2 {
 	margin-bottom: 30px;
 	padding-left: 10px;
 	border-left: 7px solid #2E8B57;
+}
+
+.input-area {
+	margin-bottom: 10px;
+	white-space: nowrap;
 }
 
 input {
@@ -37,24 +46,53 @@ input {
   font-size: 1rem;
 }
 
+.tasks {
+	margin-bottom: 100px;
+}
+
 button {
 	padding: 6px 20px;
 	color: white;
-	background-color: #4169E1;
-  border-radius: 5px;
-  font-weight: bold;
-  border: none;
+	background-color: #4169e1;
+	font-size: 1rem;
+	border: none;
+	border-radius: 5px;
+}
+
+#add-button {
+padding: 6px 20px;
+}
+
+.delete-button {
+	padding: 6px 10px;
+	background-color: #B22222;
+	font-size: 0.8rem;
+}
+
+.complete-button {
+	padding: 6px 10px;
+  font-size: 0.8rem;
+}
+
+.undo-button {
+	padding: 6px 10px;
+	font-size: 0.8rem;
 }
 
 li {
+	width: 100%;
 	list-style: none;	
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin: 4px 0px;
 }
 
-p {
+.complete-header {
 	background: lightgray;
-	padding: 3px 0px;
+	padding: 3px 3px;
+	color: #555;
+	font-size: 1rem;
+	font-weight: bold;
 }
 
