@@ -11,7 +11,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background:#777;
+  background:#FFF;
 }
 
 .container {
@@ -19,6 +19,7 @@ body {
 	padding: 60px 50px;
 	background: #FFF;
 	border-radius: 10px;
+	box-shadow: 5px 5px 30px 5px gray;
 }
 
 h2 {
@@ -28,11 +29,12 @@ h2 {
 }
 
 input {
-  width: 300px;
+  width: 400px;
   border: 1px solid #111;
   padding: 5px;
   border-radius: 5px;
   outline: none;
+  font-size: 1rem;
 }
 
 button {
@@ -45,8 +47,10 @@ button {
 }
 
 li {
-	width: 200px;
-	border: 1px solid gray;
+	list-style: none;	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 p {
