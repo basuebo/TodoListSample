@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  min-height: 100vh;
+  margin-top: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,12 +59,17 @@ button {
 	border-radius: 5px;
 }
 
+button:hover {
+	cursor: pointer;
+}
+
 #add-button {
 padding: 6px 20px;
 }
 
 .delete-button {
 	padding: 6px 10px;
+	margin-left: 6px;
 	background-color: #B22222;
 	font-size: 0.8rem;
 }
@@ -94,5 +99,10 @@ li {
 	color: #555;
 	font-size: 1rem;
 	font-weight: bold;
+}
+
+span {
+	font-size: 0px;	/* インライン要素間の不要な改行を削除 */
+	white-space: nowrap;
 }
 
